@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 class Comment extends React.Component {
   render() {
     return (
@@ -21,7 +24,7 @@ class BlogPost extends React.Component {
         <Comment content={"A universal truth. - Noam Chomsky"}/>
         <Comment content={"Truth is singular. Its 'versions' are mistruth. - Sonmi-451"}/>
 
-      </div> 
+      </div>
     )
   }
 }
